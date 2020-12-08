@@ -12,3 +12,36 @@ h1 {
 p {
   color: white;
 }
+
+.main-container {}
+
+.gameboard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.gamefield {}
+
+.subfield {
+  cursor: pointer;
+  height: 300px;
+  width: 100px;
+  border: 1px solid white;
+}
+
+.player-p {
+  font-weight: 700;
+  margin: 0 0 10px 10;
+}
+
+.player2 {
+  color: lightgreen;
+  margin-right: 10px;
+
+}
+
+.player1 {
+  color: red;
+  margin-left: 10px;
+}
