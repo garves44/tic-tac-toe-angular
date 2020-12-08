@@ -28,6 +28,7 @@ p {
   height: 300px;
   width: 100px;
   border: 1px solid white;
+
 }
 
 .player-p {
@@ -35,13 +36,22 @@ p {
   margin: 0 0 10px 10;
 }
 
-.player2 {
-  color: lightgreen;
+.player-two-name {
+  color: green;
   margin-right: 10px;
 
 }
 
-.player1 {
+.player-two {
+  background-color: green;
+
+}
+
+.player-one {
+  background-color: red;
+}
+
+.player-one-name {
   color: red;
   margin-left: 10px;
 }
